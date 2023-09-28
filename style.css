@@ -1,0 +1,110 @@
+*{
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0px;
+   padding: 0;
+   
+   
+    
+}
+
+html{
+    height: 100vh;
+
+}
+.container{
+    max-width: 1080px;
+    margin: 2px;;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header{
+    width: 110%;
+    padding: 20px 8%;
+    position: fixed;
+    top: 1;
+    left: 0;
+    transition: 0,5s;
+}
+
+header.rolagem{
+    background-color: #17197e;
+    padding: 5px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #fae2e2;
+}
+
+header i{
+    font-size: 20px;
+    color: #fff;
+
+}
+
+header ul{
+   
+    list-style-type: none;
+
+
+}
+
+header ul li{
+    display: inline-block;
+    margin:0 40px;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 1.45rem;
+    position: relative;
+    color:#fff;
+    font-weight: 700;
+}
+nav a{
+    color: #fff;
+    text-decoration: nome;
+    padding: 0px 50px 10px 0;
+    font-size: 25pt;
+    position: relative;
+}
+nav a::after{
+    content: "";
+    width: 0%;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+nav a:hover::after{
+    width: 100%;
+
+}
+
+
+.banner{
+    height: 100vh;
+    background-image: url(img/Moderno\ Atraente\ e\ Prático.gif);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: 100% 100%; 
+      
+    }
+.main-footer{
+    background-color: rgb(3, 3, 3);
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: #fff; ;
+    
+}
+

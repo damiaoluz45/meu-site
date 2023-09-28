@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    text-decoration: none;
+    background-color: rgb(172, 210, 243);
+    }
+    header {
+        font-size: 4.5em;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.384);
+        color: rgb(255, 255, 255);
+        background-color: rgb(236, 75, 26);
+        padding: 30px 10px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0);
+    }
+    div {
+        color: white;
+        text-align: center;
+        font-size: 5em;
+        font-weight: 700;
+        padding: 30px;
+        border: 2px inset black;
+    }
+    .cabecalho{
+        background-color: rgb(247, 65, 186);
+    }
+    
+        
+    .azul1{
+        background-color: blue;
+    }
+    
+    
+    blockquote {
+        font-size: 3em;
+        text-indent: 5vw;
+        border: 2px inset black;
+        width: 70vw;
+        margin-left: 10vh;
+        margin-bottom: 10vh;
+    }
+    
+    
+    blockquote::before {
+        content: "\"";
+    }
+    
+    blockquote::after {
+        white-space: pre;
+        content: '"\a  - Albert Einstein ';
+    }
+    footer{
+        background-color: rgb(28, 43, 243, 0.65);
+        padding: 3px;
+        padding-bottom: 3px;
+        color: white;
+        text-align: center;
+        font-weight: 10px;
+        font-size: 0.5rem;
+    }
+    

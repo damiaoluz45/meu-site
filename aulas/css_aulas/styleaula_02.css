@@ -1,0 +1,36 @@
+
+body{
+    display: block;
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(83, 248, 105);
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(248, 248, 248, 0.459);
+    color: rgb(79, 79, 79);
+    text-decoration: underline;
+}
+h2{
+    text-indent: 20px;
+    font-size: 35px;
+    color: green;
+}
+img{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: inset;
+    border-color: rgb(114, 116, 116);
+}
+h3{
+    text-indent: 20px;
+    font-size: 35px;
+    color: green;
+}
+
